@@ -1,0 +1,58 @@
+.container {
+width: 1000px;
+height: 1000px;
+display: grid;
+grid-template-columns: 250px 500px 250px;
+grid-template-rows: 480px 500px;
+}
+
+.slide {
+width: 500px;
+height: 500px;
+grid-column: 2 / 3;
+}
+
+.images {
+    width: 500px;
+    height: 500px;
+}
+
+.left {
+display: grid;
+grid-template-columns: 100px 100px 50px;
+}
+
+.right {
+display: grid;
+grid-template-columns: 50px 100px 100px;
+}
+
+.before {
+height: 20px;
+grid-column: 3 / 4;
+margin-top: 455px;
+margin-right: 10px;
+}
+
+.after {
+height: 20px;
+grid-column: 1 / 2;
+margin-left: 10px;
+margin-top: 455px;
+}
+
+.indicate {
+    grid-column: 2 / 3;
+}
+
+.buttons {
+    margin-left: 160px;
+}
+
+.show {
+    width: 30px;
+    height: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: white;
+}
